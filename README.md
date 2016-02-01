@@ -11,3 +11,8 @@ mozilla-central/obj-x86_64-unknown-linux-gnu/_tests/testing/mochitest/mochijar/c
 You could also modify the couple of statements and change the directory to look through.
 
 Any suggestions for improvements are greatly appreciated!
+
+01/31/2016:
+
+The file can now be run with testIsTest and it only needs to be given the directory containing JSON's files. It will
+find all the test and source files that were touched in the tests. 
